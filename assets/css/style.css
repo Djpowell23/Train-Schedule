@@ -7,6 +7,7 @@ body {
     color: white;
     font-family: 'PT Sans', sans-serif;
     margin: 0 auto;
+    margin-bottom: 15px;
     width: 80vw;
 }
 
@@ -31,8 +32,17 @@ h1 {
     background-color: rgb(26, 25, 25);
 }
 
-.table,#card-body {
-    background-color: rgba(32, 31, 31, 0.836)
+.table, #card-body {
+    background-color: rgba(32, 31, 31, 0.836);
+}
+
+.updateBtn {
+    background-color: rgba(32, 31, 31, 0.836);
+    border-radius: 8px;
+    color: white;
+    height: 45px;
+    margin-bottom: 10px;
+    width: 100px;
 }
 
 

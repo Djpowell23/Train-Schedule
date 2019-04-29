@@ -12,15 +12,13 @@ var config = {
     storageBucket: "train-schedule-a3d9b.appspot.com",
     messagingSenderId: "93420503185"
 };
+
 firebase.initializeApp(config);
 // Link to database
 var database = firebase.database();
 
-// Firebase Snapshot on Value
-
-
 // Add Train Route Function
-$('button').on('click',function() {
+$('#submit-button').on('click',function() {
     // Prevent Default
     event.preventDefault();
     
